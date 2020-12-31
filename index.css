@@ -1,0 +1,152 @@
+/*------- Tous les éléments de la page ---------*/
+* {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* ------- Debut Header de la page --------------- */
+
+header {
+  /*position: fixed;*/
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#navBar {
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+}
+ul {
+  list-style-type: none;
+}
+
+.elementNavBar:hover {
+  color: aqua;
+}
+/*---------Fin du Header -------------*/
+
+/*-------- Debut de la Section de Making the healthcare experience more human -----*/
+#HealthcareExperience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+#twoParagraphs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  line-height: 1.5em;
+}
+
+/* ----------Section For patiens For doctors For clinics---------- */
+
+#ThreeBlocs {
+  margin-bottom: 0;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+#blockForPatients,
+#blockForDoctors,
+#blockForClinics {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 3%;
+}
+
+/*-------Section We are a global company with local culture-------------*/
+svg {
+  width: 60%;
+}
+.logoCompany {
+  width: 90%;
+}
+#globalCompany {
+  margin-top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#containerDesLogos {
+  margin: 10%;
+  display: flex;
+  flex-wrap: wrap;
+}
+/*--------------Section The world's biggest healthcare platform--------------------------*/
+
+#healthcarePlatform {
+  display: flex;
+  justify-content: space-around;
+  padding: 5% 5% 0 0;
+}
+#containerHealthcare {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.healthcare {
+  background: white;
+  width: 40%;
+  height: 30%;
+  text-align: center;
+  padding: 3% 3%;
+}
+
+#patients,
+#doctors {
+  transform: translate(0, -10%);
+}
+
+/*-------------Section Improve the lives of millions-------------------------*/
+
+#improveLives {
+  text-align: center;
+  margin: 5%;
+}
+
+/*---------------------Sections des images des pays----------------------------*/
+#imagesPays {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.blocPays {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 10px;
+  width: 25%;
+  height: 60%;
+  padding: 2%;
+}
+
+.blocPays:hover {
+  box-shadow: 6px 6px 6px gray;
+}
+.pays {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+button:hover {
+  background: blue;
+}
+/*-------Section: Sounds interesting? Join us now!----------*/
+#joinUs {
+  text-align: center;
+}
+/*--------Footer------------------*/
+footer {
+  padding: 3%;
+  margin: 5% 0 0 0;
+  font-size: 12px;
+  text-align: center;
+  color: #ababab;
+}
